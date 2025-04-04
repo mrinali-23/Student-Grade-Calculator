@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: burlywood;
+}
+
+#input-con {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-left: 650px;
+}
+
+input {
+  margin-bottom: 30px;
+  height: 28px;
+  padding-left: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.container h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}

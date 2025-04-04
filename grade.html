@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="grade.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student grade calculator</h1>
+      <div id="input-con">
+        <input type="text" placeholder="Physics" id="Physics" />
+        <input type="text" placeholder="Chemistry" id="Chemistry" />
+        <input type="text" placeholder="Maths" id="Maths" />
+        <input type="text" placeholder="English" id="English" />
+        <input type="text" placeholder="Biology" id="Bio" />
+        <input
+          type="button"
+          value="Show Percentage"
+          id="btn"
+          onclick="calc()"
+        />
+      </div>
+      <div>
+        <p id="showData"></p>
+      </div>
+    </div>
+  </body>
+  <script src="grade.js"></script>
+</html>
